@@ -13,10 +13,7 @@ module.exports = {
     node: true,
     es2020: true
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:vue/strongly-recommended'
-  ],
+  extends: [ 'eslint:recommended', 'plugin:vue/strongly-recommended' ],
   plugins: ['vue'],
   // add your custom rules here
   rules: {
