@@ -15,9 +15,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:vue/strongly-recommended',
-    '@nuxtjs',
-    'plugin:nuxt/recommended'
+    'plugin:vue/strongly-recommended'
   ],
   plugins: ['vue'],
   // add your custom rules here
